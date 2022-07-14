@@ -1,0 +1,82 @@
+/*******
+
+COMMON
+
+*******/
+
+body {
+    font-family: "Century Gothic", "Helvetica", "Trebuchet MS";
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-family: "Century Gothic", "Helvetica", "Trebuchet MS";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.font-primary {
+    color: #F99DC6;
+}
+
+/* 
+FONTS
+Portfolio AboutH1 ProjectsH1 TwitterClone NETFLIXClone {
+    font-family: "Malgun Gothic";
+}
+AboutTab ProjectsTab Name Body Buttons {
+    font-family: "Century Gothic";
+}
+
+SIZES and weights
+Brand abouth1 projectsh1 {
+    50 bold
+}
+nav {
+    28
+}
+name {
+    28 bold
+}
+jobtitle {
+    30
+}
+languages {
+    25
+}
+description email {
+    22
+}
+projectnames {
+    45 bold
+}
+projectdescription {
+    28
+}
+logintitle {
+    28 bold
+}
+login {
+    26
+}
+buttontext {
+    35
+}
+
+COLORS
+P-brand A-H1 P-H1 languages {
+    color: #f99dc6;
+}
+ortfolio-brand AboutNav ProjectsNav bout-H1 rojects-H1 jobtitle logininfos button1s {
+projectsboxborder
+    color: #707070
+}
+button2s {
+    color: #212529
+}
+name description myemail projectheading description {
+    color: #000000
+}
+buttontext {
+    color: #ffffff
+}
