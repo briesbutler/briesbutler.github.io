@@ -24,6 +24,18 @@ body {
     color: #707070;
 }
 
+p {
+    font-size: 13px;
+}
+
+h2 {
+    color: #707070;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Calibri", "Arial", sans-serif;
+    margin-bottom: 20px;
+}
+
 /*******
 
 ABOUT
@@ -31,20 +43,11 @@ ABOUT
 *******/
 
 #about {
-    
     padding: 0px 50px;
     margin: 60px auto;
     max-width: 600px;
     text-align: center;
-}
-
-#about h2 {
-    color: #707070;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: "Calibri", "Arial", sans-serif;
-    margin-bottom: 20px;
-}
+} 
 
 #about img {
     border-radius: 50%;
@@ -53,7 +56,7 @@ ABOUT
 }
 
 #about .name {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -64,18 +67,14 @@ ABOUT
 }
 
 #about .skills {
-    font-size: 15px;
+    font-size: 13px;
     color: #F99DC6;
     margin-bottom: 20px;
 }
 
-#about p {
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-
 #about .email {
-    font-size: 15px;
+    margin-top: 20px;
+    font-size: 13px;
 }
 
 #about .icons {
@@ -85,6 +84,30 @@ ABOUT
 #about .icons a {
     color: #000;
 }
+
+/*******
+
+PROJECTS
+
+*******/
+
+#projects {
+    padding: 0px 50px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#projects .card {
+    text-align: left;
+}
+
+#projects .card-title {
+    font-weight: bold;
+}
+
+
+
+
 
 
 
