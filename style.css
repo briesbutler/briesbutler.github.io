@@ -6,18 +6,22 @@ COMMON
 
 body {
     font-family: "Century Gothic", "Lucida Grande", "Lucida Console", sans-serif;
-    text-align: center;
 }
 
-.navbar-brand .tab {
+.title-icon {
     font-family: "Calibri", "Arial", sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     color: #707070
 }
 
 .font-primary {
     color: #F99DC6;
+}
+
+.nav-item {
+    font-size: 17px;
+    color: #707070;
 }
 
 /*******
@@ -27,41 +31,55 @@ ABOUT
 *******/
 
 #about {
+    
+    padding: 0px 50px;
     margin: 60px auto;
-    max-width: 400px;
+    max-width: 600px;
     text-align: center;
+}
+
+#about h2 {
+    color: #707070;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Calibri", "Arial", sans-serif;
+    margin-bottom: 20px;
 }
 
 #about img {
     border-radius: 50%;
     width: 120px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #about .name {
-    font-size: 19px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #about .vocation {
-    font-size: 12px;
+    font-size: 17px;
     color: #707070;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #about .skills {
-    font-size: 14px;
+    font-size: 15px;
     color: #F99DC6;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 #about .email {
-    margin-top: 14px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 #about .icons {
-    margin-top: 20px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #about .icons a {
