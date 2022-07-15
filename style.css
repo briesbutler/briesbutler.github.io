@@ -20,12 +20,12 @@ body {
 }
 
 .nav-item {
-    font-size: 17px;
+    font-size: 18px;
     color: #707070;
 }
 
 p {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 h2 {
@@ -56,29 +56,29 @@ ABOUT
 }
 
 #about .name {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
 }
 
 #about .vocation {
-    font-size: 17px;
+    font-size: 18px;
     color: #707070;
     margin-bottom: 20px;
 }
 
 #about .skills {
-    font-size: 13px;
+    font-size: 16px;
     color: #F99DC6;
     margin-bottom: 20px;
 }
 
 #about .email {
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 #about .icons {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 #about .icons a {
@@ -99,10 +99,42 @@ PROJECTS
 
 #projects .card {
     text-align: left;
+    border: 1px solid #707070 !important;
+}
+
+#projects .card img {
+    width: 100%;
+    border: 1px solid #707070;
 }
 
 #projects .card-title {
     font-weight: bold;
+    font-family: "Calibri", "Arial", sans-serif;
+    font-size: 26px;
+}
+
+#projects .card-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#projects .card-login {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#projects .card-info {
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 25px;
+}
+
+#projects .website {
+    background-color: #707070;
+}
+
+#projects .github {
+    background-color: #212529;
 }
 
 
