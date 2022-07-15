@@ -5,47 +5,114 @@ COMMON
 *******/
 
 body {
-    font-family: "Century Gothic", "Helvetica", "Trebuchet MS";
-    font-weight: bold;
+    font-family: "Century Gothic", "Lucida Grande", "Lucida Console", sans-serif;
+    text-align: center;
 }
 
-.navbar-brand {
-    font-family: "Century Gothic", "Helvetica", "Trebuchet MS";
+.navbar-brand .tab {
+    font-family: "Calibri", "Arial", sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 50px;
+    color: #707070
 }
 
 .font-primary {
     color: #F99DC6;
 }
 
-/* 
-FONTS
-Portfolio AboutH1 ProjectsH1 TwitterClone NETFLIXClone {
-    font-family: "Malgun Gothic";
+/*******
+
+ABOUT
+
+*******/
+
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
 }
-AboutTab ProjectsTab Name Body Buttons {
-    font-family: "Century Gothic";
+
+#about img {
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+#about .name {
+    font-size: 19px;
+}
+
+#about .vocation {
+    font-size: 12px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+
+#about .skills {
+    font-size: 14px;
+    color: #F99DC6;
+    margin-bottom: 10px;
+}
+
+#about .email {
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+#about .icons {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#about .icons a {
+    color: #000;
+}
+
+
+
+
+/*******
+
+MINE
+
+
+.nav-item {
+    size: 28px;
+    color: #707070
+}
+
+.name {
+    size: 28px;
+    font-weight: bold;
+    color: #000
+}
+
+.languages {
+    font-size: 25px;
+    color: #f99dc6;
+}
+
+.description .email {
+    font-size: 22px;
+    color: #000
+}
+
+
+
+FONTS
+TwitterClone NETFLIXClone {
+    font-family: "Calibri" "Arial";
+}
+Body Buttons {
+    font-family: "Century Gothic" "Lucida Grande" lucida console;
 }
 
 SIZES and weights
-Brand abouth1 projectsh1 {
+abouth1 projectsh1 {
     50 bold
-}
-nav {
-    28
-}
-name {
-    28 bold
 }
 jobtitle {
     30
-}
-languages {
-    25
-}
-description email {
-    22
 }
 projectnames {
     45 bold
@@ -64,19 +131,19 @@ buttontext {
 }
 
 COLORS
-P-brand A-H1 P-H1 languages {
+P-H1 {
     color: #f99dc6;
 }
-ortfolio-brand AboutNav ProjectsNav bout-H1 rojects-H1 jobtitle logininfos button1s {
+rojects-H1 jobtitle logininfos button1s {
 projectsboxborder
     color: #707070
 }
 button2s {
     color: #212529
 }
-name description myemail projectheading description {
+projectheading projdescription {
     color: #000000
 }
 buttontext {
     color: #ffffff
-}
+} */
