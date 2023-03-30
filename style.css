@@ -147,6 +147,38 @@ Certifications
 }
 
 
+#certifications .card {
+    text-align: left;
+    border: 1px solid #707070 !important;
+}
+
+#certifications .card img {
+    width: 100%;
+    border: 1px solid #707070;
+}
+
+#certifications .card-title {
+    font-weight: bold;
+    font-family: "Calibri", "Arial", sans-serif;
+    font-size: 26px;
+}
+
+#certifications .card-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#certifications .card-login {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#certifications .card-info {
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 25px;
+}
+
 
 
 
