@@ -147,7 +147,8 @@ Certifications
 }
 
 
-#certifications .card {
+#certifications .1 .row {
+    display: flex;
     text-align: center;
     border: 1px solid #707070 !important;
 }
